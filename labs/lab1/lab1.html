@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота: Форма реєстрації</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="lab1.css">
+</head>
+<body>
+
+    
+    <header class="headercontainer">
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Головна</a></li>
+                <li><a href="../../about.html">Про мене</a></li>
+                <li><a href="../../prs.html">Практичні роботи</a></li>
+                <li><a href="../../labs.html">Лабораторні роботи</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="wrapper2">
+            <div class="container">
+                
+                <a href="../../labs.html" class="back-link">< Повернутися до списку лабораторних</a>
+                
+                <h2 style="margin-top: 24px;">Реєстрація користувача</h2>
+                <p>Заповніть форму нижче для створення облікового запису.</p>
+
+                
+                <form action="../../index.html" method="POST" class="registration-form">
+                    
+                    <div class="formgroup">
+                        <label for="fname">Ім'я:</label>
+                        <input type="text" id="fname" name="first_name" required placeholder="Введіть ваше ім'я">
+                    </div>
+
+                    <div class="formgroup">
+                        <label for="lname">Прізвище:</label>
+                        <input type="text" id="lname" name="last_name" required placeholder="Введіть ваше прізвище">
+                    </div>
+
+                    <div class="formgroup">
+                        <label for="email">Електронна пошта:</label>
+                        <input type="email" id="email" name="user_email" required placeholder="example@gmail.com">
+                    </div>
+
+                    <div class="formgroup">
+                        <label for="pwd">Пароль:</label>
+                        <input type="password" id="pwd" name="password" required placeholder="Введіть пароль">
+                    </div>
+
+                    <div class="formgroup">
+                        <label for="pwd_confirm">Підтвердження паролю:</label>
+                        <input type="password" id="pwd_confirm" name="password_confirmation" required placeholder="Повторіть пароль">
+                    </div>
+
+                    
+                    <div class="formgroup">
+                        <label for="dob">Дата народження:</label>
+                        <input type="date" id="dob" name="date_of_birth">
+                    </div>
+
+                    <div class="formgroup">
+                        <label for="gender">Стать:</label>
+                        <select id="gender" name="gender">
+                            <option value="">Оберіть стать...</option>
+                            <option value="male">Чоловіча</option>
+                            <option value="female">Жіноча</option>
+                            <option value="other">Інше</option>
+                        </select>
+                    </div>
+
+                    <input type="submit" value="Зареєструватися" class="submit-btn">
+                </form>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footercontainter">
+            <p>Денис Соловей КІД-42</p>
+            <p>
+                <a href="mailto:denis.solovey66@gmail.com">Email</a>
+                |
+                <a href="https://github.com/deNolD6" target="_blank">GitHub</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

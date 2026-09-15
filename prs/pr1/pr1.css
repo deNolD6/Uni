@@ -1,6 +1,12 @@
 /*таблиця*/
 
-.schedule-table {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.table {
     width: 100%;
     border-collapse: collapse;
     background-color: #ffffff;
@@ -8,8 +14,8 @@
   }
   
   
-  .schedule-table th, 
-  .schedule-table td {
+  .table th, 
+  .table td {
     padding: 14px 10px;
     border: 2px solid #dde0e0;
     text-align: center;
@@ -17,30 +23,29 @@
   }
   
   
-  .schedule-table thead th {
-    background-color: #e8ebeb;
+  .table thead th {
+    background-color: #ffffff;
     color: #333;
     font-weight: bold;
-    font-size: 16px;
-    border-bottom: 2px solid #bdc3c7;
+    font-size: 18px;
   }
   
   
-  .schedule-table .subject {
+  .subject {
     font-weight: bold;
     color: #253647;
     margin-bottom: 4px;
-    font-size: 15px;
+    font-size: 14px;
   }
   
-  .schedule-table .teacher {
-    font-size: 13px;
+  .teacher {
+    font-size: 12px;
     color: #666;
     margin-bottom: 4px;
   }
   
-  .schedule-table .room {
-    font-size: 13px;
+  .room {
+    font-size: 12px;
     color: #e74c3c;
     font-weight: 500;
   }

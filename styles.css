@@ -29,7 +29,8 @@ h1{
 
 }
 
-h4{
+h3{
+  font-size: 22px;
   font-weight: normal;
 }
 
@@ -42,7 +43,7 @@ a {
   color: #333;
   text-decoration: none;
   transition: color 0.3s ease;
-  font-size: 22px;
+  
 }
 
 
@@ -82,8 +83,10 @@ ul {
   gap: 32px;
 }
 
-
-
+.two-columns .container {
+  margin-bottom: 0;
+  height: 100%;
+}
 
 
 .work-card {
@@ -98,15 +101,12 @@ ul {
 
 .work-card:hover {
   text-decoration: none;
-  border-color: #253647;
+  border-color: #333;
   box-shadow: -4px 4px 0px rgba(0,0,0,0.1);
   transform: translateX(2px);
 }
 
-.two-columns .container {
-  margin-bottom: 0;
-  height: 100%;
-}
+
 
 .headercontainer {
   position: fixed;
