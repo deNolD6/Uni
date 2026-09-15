@@ -9,66 +9,68 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 
     
 
 </head>
+
+<header class="headercontainer">
+    <nav class="nav-menu">
+        <ul>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="about.html">Про мене</a></li>
+            <li><a href="prs.html">Практичні роботи</a></li>
+            <li><a href="labs.html">Лабораторні роботи</a></li>
+        </ul>
+    </nav>
+</header>
+
 <body>
-
-    <header>
-        <div class="header-container">
-            <h1>Особистий веб-сайт Дениса [Ваше Прізвище]</h1>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="#">Головна</a></li>
-                    <li><a href="#about">Про мене</a></li>
-                    <li><a href="#practical">Практичні роботи</a></li>
-                    <li><a href="#labs">Лабораторні заняття</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
     <main>
-        <section id="about" class="section">
+        <div class="container">
             <h2>Про мене</h2>
             <div class="about-content">
                 <div class="bio">
-                    <p><strong>Ім'я:</strong> Денис [Ваше Прізвище]</p>
-                    <p><strong>Email:</strong> myemail@example.com | <strong>Telegram:</strong> @username</p>
-                    <p><strong>Біографія:</strong> Студент, що вивчає розробку програмного забезпечення та комп'ютерні мережі. Цікавлюся програмуванням на Java та Python, налаштуванням мережевого обладнання та роботою з мікроконтролерами (наприклад, Arduino).</p>
+                    <p><strong>Ім'я:</strong> Денис Соловей</p>
+                    <p><strong>Email:</strong> denis.solovey66@gmail.comm | <strong>Telegram:</strong> @username</p>
+                    <p><strong>Біографія:</strong> </p>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <section id="practical" class="section">
+        <div class="container">
             <h2>Практичні роботи</h2>
             <ul class="work-list">
                 <li>
-                    <a href="pages/pract1.html">Практична робота №1: Робота з JDBC та базами даних</a>
+                    <a href="pages/pract1.html">Практична робота №1: Робота з JDBC та базами даних
                     <p>Короткий опис: Створення підключення до бази даних та виконання SQL-запитів з Java-додатку.</p>
+                    </a>
                 </li>
                 <li>
-                    <a href="pages/pract2.html">Практична робота №2: Налаштування VLAN та ACL</a>
-                    <p>Короткий опис: Конфігурація комутаторів L2/L3 у симуляторі мережі.</p>
+                    <a href="pages/pract2.html">Практична робота №2: Налаштування VLAN та ACL
+                        <p>Короткий опис: Конфігурація комутаторів L2/L3 у симуляторі мережі.</p>
+                    </a>
+                    
                 </li>
             </ul>
-        </section>
+        </div>
 
-        <section id="labs" class="section">
+        <div class="container">
             <h2>Лабораторні заняття</h2>
             <ul class="work-list">
                 <li>
-                    <a href="pages/lab1.html">Лабораторна робота №1: Unit-тестування</a>
+                    <a href="pages/lab1.html">Лабораторна робота №1: Unit-тестування
                     <p>Короткий опис: Покриття коду модульними тестами для перевірки логіки роботи програми.</p>
+                </a>
                 </li>
                 <li>
-                    <a href="pages/lab2.html">Лабораторна робота №2: Схемотехніка та мікроконтролери</a>
+                    <a href="pages/lab2.html">Лабораторна робота №2: Схемотехніка та мікроконтролери
                     <p>Короткий опис: Проектування схеми з послідовним підключенням світлодіодів та зняття показників мультиметром.</p>
+                </a>
                 </li>
             </ul>
-        </section>
+        </div>
     </main>
 
     <footer>
