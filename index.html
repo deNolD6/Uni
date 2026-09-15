@@ -1,13 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <title>Особистий веб-сайт Дениса [Ваше Прізвище]</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="style.css">
+
+    
+
+</head>
 <body>
-    фівфівфівфівs
+
+    <header>
+        <div class="header-container">
+            <h1>Особистий веб-сайт Дениса [Ваше Прізвище]</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Головна</a></li>
+                    <li><a href="#about">Про мене</a></li>
+                    <li><a href="#practical">Практичні роботи</a></li>
+                    <li><a href="#labs">Лабораторні заняття</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <h2>Про мене</h2>
+            <div class="about-content">
+                <div class="bio">
+                    <p><strong>Ім'я:</strong> Денис [Ваше Прізвище]</p>
+                    <p><strong>Email:</strong> myemail@example.com | <strong>Telegram:</strong> @username</p>
+                    <p><strong>Біографія:</strong> Студент, що вивчає розробку програмного забезпечення та комп'ютерні мережі. Цікавлюся програмуванням на Java та Python, налаштуванням мережевого обладнання та роботою з мікроконтролерами (наприклад, Arduino).</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="practical" class="section">
+            <h2>Практичні роботи</h2>
+            <ul class="work-list">
+                <li>
+                    <a href="pages/pract1.html">Практична робота №1: Робота з JDBC та базами даних</a>
+                    <p>Короткий опис: Створення підключення до бази даних та виконання SQL-запитів з Java-додатку.</p>
+                </li>
+                <li>
+                    <a href="pages/pract2.html">Практична робота №2: Налаштування VLAN та ACL</a>
+                    <p>Короткий опис: Конфігурація комутаторів L2/L3 у симуляторі мережі.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="labs" class="section">
+            <h2>Лабораторні заняття</h2>
+            <ul class="work-list">
+                <li>
+                    <a href="pages/lab1.html">Лабораторна робота №1: Unit-тестування</a>
+                    <p>Короткий опис: Покриття коду модульними тестами для перевірки логіки роботи програми.</p>
+                </li>
+                <li>
+                    <a href="pages/lab2.html">Лабораторна робота №2: Схемотехніка та мікроконтролери</a>
+                    <p>Короткий опис: Проектування схеми з послідовним підключенням світлодіодів та зняття показників мультиметром.</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Денис [Ваше Прізвище]. Роки навчання: 2023 - 2027.</p>
+            <div class="social-links">
+                <a href="mailto:myemail@example.com">Email</a>
+                <a href="https://github.com/your-username" target="_blank">Мій GitHub</a>
+                <a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
