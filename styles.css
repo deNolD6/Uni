@@ -115,7 +115,7 @@ ul {
   align-items: center;
   left: 0;
   width: 320px;
-  height: 100vh;
+  height: 100%;
   background-color: #253647;
   color: white;
   padding: 96px 48px 48px 48px;
@@ -147,3 +147,58 @@ ul {
 
 
 
+@media (max-width: 1000px) {
+  
+  .wrapper{
+    padding: 24px;
+  }
+
+  body{
+    margin: 0px;
+  }
+  
+  .headercontainer {
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    height: auto;
+    min-height: auto;
+    padding: 16px 20px;
+  }
+
+  
+  .headercontainer ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  
+
+  .headercontainer li, ul , a {
+    padding: 0px 16px;
+    text-align: center;
+  }
+
+ 
+  main {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  
+  .two-columns {
+    grid-template-columns: 1fr;
+  }
+
+  
+  .content-wrapper {
+    padding: 0 16px;
+  }
+  
+  .container {
+    padding: 24px;
+  }
+}
