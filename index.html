@@ -10,77 +10,69 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles.css">
-
-    
-
 </head>
 
-<header class="headercontainer">
-    <nav class="nav-menu">
-        <ul>
-            <li><a href="index.html">Головна</a></li>
-            <li><a href="about.html">Про мене</a></li>
-            <li><a href="prs.html">Практичні роботи</a></li>
-            <li><a href="labs.html">Лабораторні роботи</a></li>
-        </ul>
-    </nav>
-</header>
-
 <body>
+    <header class="headercontainer">
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="about.html">Про мене</a></li>
+                <li><a href="prs.html">Практичні роботи</a></li>
+                <li><a href="labs.html">Лабораторні роботи</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
-        <div class="container">
-            <h2>Про мене</h2>
-            <div class="about-content">
-                <div class="bio">
-                    <p><strong>Ім'я:</strong> Денис Соловей</p>
-                    <p><strong>Email:</strong> denis.solovey66@gmail.comm | <strong>Telegram:</strong> @username</p>
-                    <p><strong>Біографія:</strong> </p>
+        <div class="banner">
+            <div class="wrapper">
+                <div class="container">
+                    <div>
+                        <p><h1> Денис Соловей</h1></p>
+                        <p>студент.</p>
+                    </div>
                 </div>
             </div>
         </div>
+            
+        
 
-        <div class="container">
-            <h2>Практичні роботи</h2>
-            <ul class="work-list">
-                <li>
-                    <a href="pages/pract1.html">Практична робота №1: Робота з JDBC та базами даних
-                    <p>Короткий опис: Створення підключення до бази даних та виконання SQL-запитів з Java-додатку.</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="pages/pract2.html">Практична робота №2: Налаштування VLAN та ACL
-                        <p>Короткий опис: Конфігурація комутаторів L2/L3 у симуляторі мережі.</p>
-                    </a>
-                    
-                </li>
-            </ul>
-        </div>
+        <div class="wrapper">
+            <div class="two-columns">
+                <div class="container">
+                <h1>Остання практична робота</h1>
+                <ul>
+                    <li>
+                        <a href="pages/pract1.html" class="work-card">
+                            <h4>Практична робота №1: Робота з JDBC та базами даних</h4>
+                            <p>Створення підключення до бази даних та виконання SQL-запитів з Java-додатку.</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
 
-        <div class="container">
-            <h2>Лабораторні заняття</h2>
-            <ul class="work-list">
-                <li>
-                    <a href="pages/lab1.html">Лабораторна робота №1: Unit-тестування
-                    <p>Короткий опис: Покриття коду модульними тестами для перевірки логіки роботи програми.</p>
-                </a>
-                </li>
-                <li>
-                    <a href="pages/lab2.html">Лабораторна робота №2: Схемотехніка та мікроконтролери
-                    <p>Короткий опис: Проектування схеми з послідовним підключенням світлодіодів та зняття показників мультиметром.</p>
-                </a>
-                </li>
-            </ul>
-        </div>
+            <div class="container">
+                <h1>Остання лабораторна робота</h1>
+                <ul>
+                    <li>
+                        <a href="pages/lab1.html" class="work-card">
+                            <h4>Лабораторна робота №1: Unit-тестування</h4>
+                            <p>Покриття коду модульними тестами для перевірки логіки роботи програми.</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>  
     </main>
 
     <footer>
-        <div class="footer-content">
-            <p>&copy; 2026 Денис [Ваше Прізвище]. Роки навчання: 2023 - 2027.</p>
-            <div class="social-links">
-                <a href="mailto:myemail@example.com">Email</a>
-                <a href="https://github.com/your-username" target="_blank">Мій GitHub</a>
-                <a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
-            </div>
+        <div class="footercontainter">
+            <p>Денис Соловей КІД-42</p>
+            <p>
+                <a href="mailto:denis.solovey66@gmail.com">Email</a>
+                |
+                <a href="https://github.com/deNolD6" target="_blank">GitHub</a>
+            </p>
         </div>
     </footer>
 

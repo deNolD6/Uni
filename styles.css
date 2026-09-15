@@ -1,18 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body{
-  margin: 0 480px 0 480px;
+  margin-left: 320px;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
   font-style: normal;
-  background-color: #f3f6f5;
+  background-color: #f4f4f4;
   color: #333;
   line-height: 1.6;
+
+  display: grid;
+  grid-template-rows: 1fr auto;
+  min-height: 100vh;
+}
+
+footer {
+  padding: 0 48px 0 48px;
+  text-align: center;
+  border-top: 2px solid #dde0e0;
+}
+
+h1{
+
+}
+
+h4{
+  font-weight: normal;
+}
+
+p{
+  margin: 8px 0 0 0;
+  font-size: 18px;
 }
 
 a {
   color: #333;
   text-decoration: none;
   transition: color 0.3s ease;
+  font-size: 22px;
 }
 
 
@@ -27,11 +57,55 @@ ul {
   margin: 0;
 }
 
+.banner{
+  background-color: #e7e7e7; /* Ваш фірмовий сірий колір */
+  width: 100%;
+  border-bottom: 2px solid #dde0e0;
+}
+
+.wrapper{
+  max-width: 1600px;
+  padding: 48px;
+  margin: 0 auto; 
+}
+
 .container{
   padding: 48px;
-  margin: 48px 0 48px 0;
-  background-color: #dde0e0;
+  margin-bottom: 48px;
+  background-color: #e7e7e7;
   border-radius: 8px;
+}
+
+.two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+
+
+
+
+.work-card {
+  display: block;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 16px;
+  color: #333;
+  transition: all 0.3s ease;
+  border: 1px solid transparent; 
+}
+
+.work-card:hover {
+  text-decoration: none;
+  border-color: #253647;
+  box-shadow: -4px 4px 0px rgba(0,0,0,0.1);
+  transform: translateX(2px);
+}
+
+.two-columns .container {
+  margin-bottom: 0;
+  height: 100%;
 }
 
 .headercontainer {
@@ -40,25 +114,37 @@ ul {
   flex-direction: column;
   align-items: center;
   left: 0;
-  width: 250px;
-  height: 100%;
+  width: 320px;
+  height: 100vh;
   background-color: #253647;
   color: white;
-  padding: 48px;
+  padding: 96px 48px 48px 48px;
 
+}
+
+.footercontainter{
+  margin: 32px 0;
 }
 
 .headercontainer a{
-  font-size: 24px;
+  font-size: 22px;
   color: white; 
+  
+}
+
+.footercontainter a{
+  font-size: 18px;
 }
 
 .headercontainer a:hover{
-  color: #e74c3c; 
+  color: #e74c3c;
 }
 
 .headercontainer li{
-
   padding-top: 16px; 
 }
+
+
+
+
 
