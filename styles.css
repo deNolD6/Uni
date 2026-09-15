@@ -147,7 +147,8 @@ ul {
 
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1000px)
+{
   
   .wrapper{
     padding: 24px;
