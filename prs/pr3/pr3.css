@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 body, html{
@@ -17,7 +17,6 @@ body, html{
     flex-direction: column;
     width: 100%;
     height: 100%;
-    
 }
 
 p{
@@ -192,7 +191,7 @@ hr {
 }
 
 .video-text h3{
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 5px;
 }
 
