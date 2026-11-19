@@ -140,6 +140,14 @@
     border-right: none;
 }
 
+.day-card:nth-child(4n) {
+    border-bottom: none;
+}
+
+.day-card:nth-child(5n) {
+    border-bottom: none;
+}
+
 .day-head {
     display: grid;
     grid-template-columns: 1fr auto;
@@ -171,7 +179,6 @@
 .weekend-col {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    border-bottom: 1px solid #888;
 }
 
 .weekend-col .day-card {
