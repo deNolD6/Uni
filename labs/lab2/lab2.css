@@ -62,3 +62,8 @@ p::first-letter {
 a::after {
     content: " ↗";
 }
+
+footer p:last-of-type::after{
+
+    content: " Соловей Денис";
+}

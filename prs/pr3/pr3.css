@@ -52,6 +52,16 @@ p{
     padding: 0 16px 0 16px;
 }
 
+.search-button{
+    display: flex;
+}
+
+.search-area .mircophone-button {
+    border-radius: 30px;
+    border: 1px solid #303030; 
+    margin-left: 10px;
+}
+
 .search-area input{
     width: 100%; 
     min-width: 80px;
