@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота №4 — Weekly Plan</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="./lab4.css">
+</head>
+<body>
+    <header class="headercontainer">
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Головна</a></li>
+                <li><a href="../../about.html">Про мене</a></li>
+                <li><a href="../../prs.html">Практичні роботи</a></li>
+                <li><a href="../../labs.html">Лабораторні роботи</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="wrapper">
+            <div class="container">
+                <h1>Лабораторна робота №4: Планер</h1/-*    >
+                <p>Сторінка тижневого планера за допомогою grid.</p>
+
+                <div class="planner-scroll">
+                    <div class="planner">
+                        
+                        <div class="planner-header">
+                            <h2 class="planner-title">WEEKLY PLAN</h2>
+
+                            <label class="header-field">
+                                <span>WEEK OF</span>
+                                <input type="text">
+                            </label>
+
+                            <label class="header-field">
+                                <span>HEALTHY HABIT</span>
+                                <input type="text">
+                            </label>
+
+                            <div class="header-checks">
+                                <label class="check-label">
+                                    <span>ROCKED IT</span>
+                                    <input type="checkbox">
+                                </label>
+                                <label class="check-label">
+                                    <span>ROOM FOR IMPROVEMENT</span>
+                                    <input type="checkbox">
+                                </label>
+                            </div>
+                        </div>
+
+                        
+                        <aside class="todo-col">
+                            <div class="todo-tag">TO DO</div>
+
+                            <section class="todo-section">
+                                <h3>TOP 3 GOALS</h3>
+                                <div class="todo-row"><input type="checkbox"><input type="text"></div>
+                                <div class="todo-row"><input type="checkbox"><input type="text"></div>
+                                <div class="todo-row"><input type="checkbox"><input type="text"></div>
+                            </section>
+
+                            <section class="todo-section">
+                                <h3>EVERYTHING ELSE</h3>
+                                <div class="todo-row"><input type="checkbox"><input type="text"></div>
+                                <div class="todo-row"><input type="checkbox"><input type="text"></div>
+                                <div class="todo-row"><input type="checkbox"><input type="text"></div>
+                                <div class="todo-row"><input type="checkbox"><input type="text"></div>
+                                <div class="todo-row"><input type="checkbox"><input type="text"></div>
+                                <div class="todo-row"><input type="checkbox"><input type="text"></div>
+                                <div class="todo-row"><input type="checkbox"><input type="text"></div>
+                                <div class="todo-row"><input type="checkbox"><input type="text"></div>
+                                <div class="todo-row"><input type="checkbox"><input type="text"></div>
+                                <div class="todo-row"><input type="checkbox"><input type="text"></div>
+                            </section>
+
+                            <section class="todo-section">
+                                <h3>NEXT WEEK</h3>
+                                <div class="todo-row"><input type="checkbox"><input type="text"></div>
+                                <div class="todo-row"><input type="checkbox"><input type="text"></div>
+                                <div class="todo-row"><input type="checkbox"><input type="text"></div>
+                            </section>
+                        </aside>
+
+                        
+                        <section class="days-grid">
+                            <div class="day-card">
+                                <div class="day-head">
+                                    <h3>MONDAY</h3>
+                                    <input type="checkbox" aria-label="Monday done">
+                                </div>
+                                <textarea></textarea>
+                            </div>
+
+                            <div class="day-card">
+                                <div class="day-head">
+                                    <h3>TUESDAY</h3>
+                                    <input type="checkbox" aria-label="Tuesday done">
+                                </div>
+                                <textarea></textarea>
+                            </div>
+
+                            <div class="day-card">
+                                <div class="day-head">
+                                    <h3>WEDNESDAY</h3>
+                                    <input type="checkbox" aria-label="Wednesday done">
+                                </div>
+                                <textarea></textarea>
+                            </div>
+
+                            <div class="day-card">
+                                <div class="day-head">
+                                    <h3>THURSDAY</h3>
+                                    <input type="checkbox" aria-label="Thursday done">
+                                </div>
+                                <textarea></textarea>
+                            </div>
+
+                            <div class="day-card">
+                                <div class="day-head">
+                                    <h3>FRIDAY</h3>
+                                    <input type="checkbox" aria-label="Friday done">
+                                </div>
+                                <textarea></textarea>
+                            </div>
+
+                            
+                            <div class="weekend-col">
+                                <div class="day-card">
+                                    <div class="day-head">
+                                        <h3>SATURDAY</h3>
+                                        <input type="checkbox" aria-label="Saturday done">
+                                    </div>
+                                    <textarea></textarea>
+                                </div>
+
+                                <div class="day-card">
+                                    <div class="day-head">
+                                        <h3>SUNDAY</h3>
+                                        <input type="checkbox" aria-label="Sunday done">
+                                    </div>
+                                    <textarea></textarea>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footercontainter">
+            <p>Денис Соловей КІД-42</p>
+            <p>
+                <a href="mailto:denis.solovey66@gmail.com">Email</a>
+                |
+                <a href="https://github.com/deNolD6" target="_blank">GitHub</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
